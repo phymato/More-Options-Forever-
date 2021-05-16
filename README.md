@@ -24,7 +24,7 @@ KNOWN BUGS:
 
 # Install
 - Clone/download this repo and throw it into your mods folder:
-    - Navigate to C:\Users\your username\Documents\My Games\Binding of Isaac Afterbirth+ Mods\
+    - Navigate to C:\Users\your username\Documents\My Games\Binding of Isaac Afterbirth+ Mods\ (or whereever your mods are installed)
     - If you already have a different version of this mod downloaded from Steam, unsubscribe to it
     - Make a new folder for the mod, ex. "more options forever!"
     - Copy the main.lua into the mod folder
