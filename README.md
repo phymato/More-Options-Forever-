@@ -1,7 +1,8 @@
-# more-options-forever
+# More Options Forever!
 Binding of Isaac: AB+ / Repentance mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=2469263643
 
-### description
+# Description
 
 Tired of having no choice when it comes to items? With this mod you can now pick one out of three, forever!!
 
@@ -20,3 +21,15 @@ If there's an item I forgot to exclude, you can add the ID to the main.lua file,
 KNOWN BUGS:
 - Bosses may sometimes drop one item instead of three
 - Picking up an item from three doesn't immediately despawn the other two; even though they become disabled
+
+# Install
+- Clone/download this repo and throw it into your mods folder:
+    - Navigate to C:\Users\your username\Documents\My Games\Binding of Isaac Afterbirth+ Mods\
+    - If you already have a different version of this mod downloaded from Steam, unsubscribe to it
+    - Make a new folder for the mod, ex. "more options forever!"
+    - Copy the main.lua into the mod folder
+
+### Notes:
+- Manually downloaded versions won't automatically update!
+- Test versions that are uploaded here instead of the Steam Workshop may have significatly more bugs.
+- If you want to go back to using the Steam Workshop version, be sure to delete the manually downloaded mod first.
