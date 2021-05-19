@@ -69,20 +69,6 @@ mod:AddCallback(ModCallbacks.MC_POST_NEW_ROOM, function(_)
     ::skip::
 end)
 
--- Handles spawning more options when a boss is killed
-mod:AddCallback(ModCallbacks.MC_POST_NPC_DEATH, function(_, entityNPC)
-    --[[local clearedBossRoom = (Game():GetRoom():GetAliveEnemiesCount() < 1) and
-        (Game():GetRoom():GetType() == RoomType.ROOM_BOSS)
-    if clearedBossRoom == true then
-        -- Spawn two collectibles that are "choices"
-        local center = Game():GetRoom():GetCenterPos()
-        for x = -80, 80, 160 do
-            SpawnChoiceTreasure(center + Vector(x, 0))
-        end
-        out("Spawned two choice collectibles, alongside boss drop")
-    end]]
-end)
-
 -- When a pickup collectible spawns, if it's not an important item, give it OptionsPickupIndex
 -- Only fires in Treasure Rooms and Boss Rooms
 mod:AddCallback(ModCallbacks.MC_POST_PICKUP_INIT, function(_, entityPickup)
